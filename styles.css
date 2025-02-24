@@ -1,0 +1,35 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.hero, .involve {
+    color: white;
+}
+
+.btn-primary {
+    background-color: #9C27B0 !important;
+    border-color: #9C27B0 !important;
+}
+
+.btn-primary:hover {
+    background-color: #7B1FA2 !important;
+    border-color: #7B1FA2 !important;
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.footer {
+    background-color: #2E7D32 !important;
+}
+
+.navbar-brand img {
+    filter: brightness(0) invert(1);
+}
